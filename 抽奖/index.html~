@@ -1,17 +1,15 @@
 <!DOCTYPE html>
-<!--抽奖小程序-->
-<!--修改人：夕虚（xixuxz.com）-->
-<!--原作者：Geeku（Geeku.net）-->
+<!-- saved from url=(0066)file:///home/jiahao/%E6%A1%8C%E9%9D%A2/PHP/%E6%8A%BD%E5%A5%96.html -->
 <html><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 <meta charset="UTF-8">
 <title>看看这次谁倒霉～</title>
 <link rel="stylesheet" href="style.css">
-<!--[if IE]-->
+<!--[if IE]>
 <style type="text/css"> 
 #wrapper input, #popbox, .cfg, .home{behavior: url(ie-css3.htc);}
 #wrapper h1, #wrapper input, .cfg, .home{background:filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#88FFFFFF', endColorstr='#88FFFFFF');
 </style> 
-<!--[endif]-->
+<![endif]-->
 <script src="jquery-latest.min.js"></script>
 </head>
 <body>
