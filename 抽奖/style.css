@@ -1,0 +1,150 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html{
+	overflow: hidden;
+	height: 100%;
+}
+body{
+	font-family: "微软雅黑";
+	text-align: center;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background:#EEE url(http://upload.geekus.me/gcinori/dbg.jpg);
+	background-size:cover;
+	
+}
+#wrapper{
+	margin: 20% auto 0;
+	_margin-top: 14%;
+}
+#wrapper h1{
+    width:580px;
+	font-size: 50px;
+
+	position: relative;
+	padding:40px 0 40px 0;
+	margin: 0 auto;
+	font-weight: 300;
+	color:#FF7F24;
+	box-shadow:2px 2px 8px #575757,-2px -2px 8px #575757;
+	background:rgba(255,255,255,0.5);
+	border-radius:10px;
+}
+#wrapper input{
+	width: 220px;
+	height: 80px;
+	color:#FF7F24;
+	font-family: "微软雅黑";
+	font-size:40px;
+	font-weight:800;
+	margin:20px 0 0 0;
+    box-shadow:2px 2px 8px #575757,-2px -2px 8px #575757;
+	border:none;
+	background:rgba(255,255,255,0.5);
+	vertical-align: middle;
+	border-radius:10px;
+}
+.temp{
+	position: absolute;
+	z-index: -1;
+	color: #696969;
+	font-weight:800;
+}
+#popbox-wrapper{
+	position: absolute;
+    top: 0;
+    left: 0;
+	height: 100%;
+    width: 100%;
+	background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAABZ0RVh0Q3JlYXRpb24gVGltZQAwNC8xNy8xMSQ5060AAAAcdEVYdFNvZnR3YXJlAEFkb2JlIEZpcmV3b3JrcyBDUzVxteM2AAAADUlEQVQImWNgYGBoAAAAhQCBuMOYEwAAAABJRU5ErkJggg==");
+	display: none;
+}
+#popbox{
+	background: #fff;
+	text-align: left;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	height: 280px;
+	width: 420px;
+	margin-left: -210px;
+	margin-top: -140px;
+	*border: 1px solid #666;
+	_border: 1px solid #333;
+	-webkit-box-shadow: 0 0 22px #333;
+	-moz-box-shadow: 0 0 22px #333;
+	box-shadow: 0 0 22px #333, inset 0 -3px 7px #DDD;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	padding-left: 10px;
+}
+#popbox textarea{
+    width:410px;
+    height:200px;
+}
+#popbox h3{
+    margin:8px 0;
+}
+
+#wrapper h3{
+	margin: 10px 0;
+	font-weight: 700;
+	font-size: 19px;
+
+}
+#wrapper textarea{
+	font-family: "微软雅黑";
+	font-size: 14px;
+	border: 1px solid #ccc;
+	background: #fff url(data:image/gif;base64,R0lGODlhAQADAJEAAPn5+fPz8+3t7QAAACH5BAAHAP8ALAAAAAABAAMAAAICVFAAOw==) repeat-x;
+	padding: 4px;
+	width: 400px;
+	height: 185px;
+	overflow: auto;
+	resize: none;
+	margin-bottom: 10px;
+	+margin-left: 210px
+}
+#tip{
+	font-size: 12px;
+	display: block
+}
+#close{
+	float: right;
+	font-size: 10px;
+	margin: 15px 10px 0 0;
+	color: #666;
+	cursor: pointer;
+}
+#cfg {
+    color: #666;
+    cursor: pointer;
+	font-size: 12px;
+}
+.cfg{
+       position:relative;
+       background:rgba(255,255,255,0.5);
+       top:-10px;
+       left:10px;
+       padding:2px 5px 5px 5px;
+       border-radius:10px;
+	   box-shadow:1px 1px 4px #696969,-1px -1px 4px #696969;
+}
+.home{
+     background:rgba(255,255,255,0.5);
+    padding:5px 5px 5px 5px;
+    margin:0 0 0  10px;
+	font-size: 12px;
+	border-radius:10px;
+	position:relative;
+	top:30px;
+	left:-48px;
+	cursor: pointer;
+	box-shadow:1px 1px 4px #696969,-1px -1px 4px #696969;
+}
+.home a{color: #666;text-decoration: none;}
