@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>MD5在线转码</title>
+<link href="md5.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+function show(n_s){
+	document.getElementById('s_md5').innerHTML='<font color=red>正在转码...</font>';
+	document.getElementById('s_md5').innerHTML='<iframe marginheight=0 marginwidth=0 scrolling="no" frameborder="0" width="450" height="108" src="md5.php?n_s='+n_s+'"></iframe>';
+}
+</script>
+</head>
+
+<body>
+<center>
+<br><br>
+<h1>MD5在线转码</h1>
+<div id="src">请输入未加密的字符：<input name="n_s" type="text" onkeyup='show(this.value)'></div>
+<div id="s_md5"></div>
+</center>
+</body>
+</html>
